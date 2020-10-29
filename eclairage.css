@@ -1,0 +1,217 @@
+		#body
+		{
+		min-width:100%;
+		height:900px;
+		color:black;
+		background-color:black;
+		text-align:justify;
+		
+		}
+		
+		#stop{background-color:red;	color:white;}
+		
+		#enmarche{background-color:green;color:white;}
+		/*#manuelle{background-color:white;color:white;}*/
+		.nuit{background-color:black;color:white;}
+		.jour{background-color:white;color:black;}
+		#luminosite_selectionne{background-color:green;color:white;}
+	  
+		
+		.tab
+		{
+				/*color:red;*/
+				background-color: white;
+				
+				width:50%;
+				height:800px;
+				border:3px solid yellow;
+				margin:0px;
+				margin-right:25%;
+				margin-top:5%;
+				padding:0px;
+				float:right;
+				font-size:1.5em;
+		}
+			h1
+		{
+			
+			text-align:center;
+			margin:0px;
+			padding : 0px;
+			/*border:1px solid red;*/
+		}
+		
+		/* CTTE PARTIE DU CODDE CONCERNE LA MISE EN PAGE 
+		DU FORMULAIRE DE L 'ÉCLAIRAGE POUR LE SALON*/
+		
+		
+		.tab .salon
+		{
+			width:50%;
+			height:18%;
+			margin-left:24%;
+			border:1px solid black;
+			background-color:#91B9E5;
+		}
+		.tab .salon fieldset
+		{
+			
+			height:70%;
+		}
+		.salon #etiquette,#element
+		{
+			display:block;
+			width:100%;
+			height:45%;
+		}
+		
+		
+		.salon #etiquette p
+		{
+			text-align:center;
+			font-style:italic;
+			margin:0px;
+			padding:0px;
+		}
+		.salon #element input
+		{
+			display:block;
+			text-align:center;
+			height:100%;
+			width:50%;
+			margin-left:24%;
+			font-size:1em;
+		}
+		
+	
+		
+		/*CETTE PARTIE DE CODE CONCERNE LA MISE EN PAGE DU FORMULAIRE POUR L'ÉCLAIR
+		AGE DE L'EXTERIEUR
+		*/
+		
+		.tab .exterieur
+		{
+			width:50%;
+			height:28%;
+			margin-left:24%;
+			border:1px solid black;
+			background-color:#91B9E5;
+		}
+		.tab .exterieur fieldset
+		{
+			
+			height:70%;
+		}
+		.exterieur div
+		{
+	  	position:relative;
+			display:block;
+			width:100%;
+			height:28%;
+		}
+		.exterieur #label2,#element2
+		{
+			position:relative;
+			display:inline-block;
+			width:45%;
+			height:100%;
+			
+			padding:0px;
+			text-align:center;
+			
+		}
+		
+		.exterieur #element2 p{display:block;margin:0px;padding:0px;}
+		.exterieur #label2{height:95%;float:left;}
+		.exterieur #element2{height:95%;float:right;width:50%;}
+		.exterieur input
+		{
+			display:block;
+			width:100%;
+			height:100%;
+			font-size:0.8em;
+		}
+		
+		/* Cette partie du  css concerne le formulaire de la chambre*/
+		
+			.tab .chambre
+		{
+			width:50%;
+			height:28%;
+			margin-left:24%;
+			border:1px solid black;
+			background-color:#91B9E5;
+		}
+		.tab .chambre fieldset
+		{
+			
+			height:75%;
+		}
+		.chambre div
+		{
+	  	position:relative;
+			display:block;
+			width:100%;
+			height:25%;
+			text-align:center;
+			font-size:1em;
+		}
+		.chambre #etat div
+		{
+	  	position:relative;
+			display:inline-block;
+			width:48%;
+			height:100%;
+			margin-left:1%;
+			font-size:0.85em;
+			
+			
+		}
+		.chambre #etat #label3
+		{
+	  	float:left;
+			
+		}
+		.chambre #etat #element3
+		{
+	  	float:left;
+		}
+		.chambre #etat #element3 input
+		{
+	  	width:100%;height:100%;
+	  	text-align:center;font-size:1em;
+		}
+		.luminosite
+		{
+	  	display:inline-block;
+	  	margin:0px;
+	  	padding:0px;
+	  	width:22%;
+	  	height:100%;
+	  	border-radius:20px;
+	  	font-size:0.8em;
+		}
+		
+		#commande
+	  {width:100%;height:10%;}
+	  
+	  #commande div{position:relative;display:inline-block;height:50%;margin-top:2%;}
+	  
+	  #commande div a
+	  {
+			display:block;position:relative;
+			height:100%;text-decoration:none;
+			text-align:center;background-color:#EBEBEB;
+			border:2px solid #7E7790;font-size:1em;
+	  }
+	  
+	  #commande div a:hover{border-radius:15px;border:2px solid #7E7790;}
+		
+		
+		
+		
+		
+		
+		
+		
+		
